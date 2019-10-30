@@ -1,0 +1,89 @@
+#chessBoard
+
+{
+    width: 600px;
+    height: 600px;
+}
+.white
+{
+    background-color: white;
+}
+.black
+{
+    background-color: black;
+}
+.player
+{
+    background-color:rgb(238,237,209);
+    padding: 2rem;
+    width: 22%;
+    /* border: 2px solid #065E46; */
+    box-shadow: 2px 2px 5px  rgba(0,0,0,0.2);
+    position: absolute;
+    top: 10rem;
+}
+input
+{
+    border: 1px solid rgb(120,150,86);
+    border-radius: 2px;
+    height: 1.3rem;
+    width: 12rem;
+   margin-bottom: 1rem;
+}
+.palyer1
+{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size:15px;
+    font-family: 'Rye', cursive;
+    
+
+}
+img{
+    width: 100%;
+}
+.user_img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    margin-left: 6.5rem;
+    border: 5px solid  #75AB4D;
+}
+.user_img:hover{
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+}
+
+#score
+{
+    width: 30rem;
+    height: 10rem;
+    border: 1px solid rgb(120,150,86);
+    border-radius: 2px;
+    padding: 0.5rem;
+    background-color: rgb(120,150,86,0.3);
+    margin-left: 1.2rem;
+
+}
+#btn_save1,#btn_load1
+{
+    
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 0.6rem;
+    width: 7rem;
+    margin-top: 2rem;
+    /* background-color:#3B8686; */
+    background-color: #75AB4D;
+    color: white;
+    font-family: 'Rye', cursive;
+    font-size: 15px;
+    margin-left: 2rem;
+}
+#btn_load1
+{
+    margin-left: 0;
+    background-color:tomato;
+}
